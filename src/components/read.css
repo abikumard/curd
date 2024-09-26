@@ -1,0 +1,93 @@
+.read__component{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: black;
+  
+
+}
+
+table{
+    border: 1px solid black;
+    width: 100%;
+
+}
+
+td{
+   
+    text-align: center;
+    border: 1px solid silver;
+    font-size: 18px;
+    color:white;
+}
+.ProgressBar{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+thead tr td{
+    color: wheat ;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 7px 1px;
+    border: 1px solid silver;
+}
+.tabel__head__row{
+    border-bottom: none;
+}
+.update__button .MuiSvgIcon-root{
+  
+}
+.update__button{
+    background-color: green;
+    margin: 6px 1px; 
+   
+}
+.update__button:hover{
+   
+    color: green;
+    background-color: transparent;
+    border:1px solid green ;
+   
+}
+.delete__button{
+    background-color: red;
+    
+}
+
+.delete__button:hover{
+    background-color: transparent;
+    border: 1px solid red;
+    color: red;
+    
+}
+button{
+    cursor: pointer;
+    padding: 2px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px; 
+}
+
+.no__user__found__message{
+  
+    text-align: center;
+    margin-top: 15%;
+    font-size: 50px;
+    color: gray;
+   
+}
+.add__user_message{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.users__message{
+    text-align: center;
+    color: gray;
+    font-size: 25px;
+    margin: 10px 1px;
+    text-transform: uppercase;
+}

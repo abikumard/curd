@@ -1,0 +1,53 @@
+.container{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+
+
+}
+label{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 10px;
+
+}
+.form__item{
+    display: flex;
+    margin: 1%;
+   
+   
+    
+}
+.form__item input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid silver;
+    font-size: 18px;
+    background-color: transparent;
+    color: silver;
+    text-align: start;
+}
+
+
+.checkbox__item {
+
+  
+    
+}
+
+.container button {
+    padding: 5px 30px;
+    font-size: 18px;
+}
+
